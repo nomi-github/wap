@@ -1,3 +1,100 @@
 .top {
-    height:60px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
 }
+
+.topNavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftTopNavBar, .leftBottomNavBar{
+    display: flex;
+    align-items: center;
+}
+
+.leftTopNavBar>span, .leftBottomNavBar>div>span{
+    margin: 15px ;
+}
+
+
+.leftTopNavBar>img{
+    width: 110px;
+}
+
+.loginDiv{
+    display: flex;
+    align-items: center;
+}
+
+.loginDiv>img{
+    width: 40px;
+}
+
+.rightTopNavBar, .rightBottomNavBar{
+    display: flex;
+    align-items: center;
+}
+
+.rightTopNavBar>div{
+    margin: 15px;
+}
+
+.searchBox{
+    width: 360px;
+    border: grey solid 1px;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: grey;
+}
+
+.searchIcon>img{
+    width: 40px;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo>img{
+    width: 110px;
+}
+
+/* Bottom Navbar */
+.bottomNavBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px 0px 5px;
+    margin-left: 25px;
+}
+.leftBottomNavBar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.trailHeadHeading{
+    margin-right: 20px;
+}
+.rightBottomNavBar{
+    text-align: center;
+}
+.signUpButton{
+    width: 100px;
+    padding: 12px;;
+    background-color: #0176d3;
+    color: white;
+    border-radius: 5px ;
+    margin-right: 20px;
+}
+hr{
+    color: grey;
+    margin: 0;
+
+}
+
+
