@@ -1,5 +1,7 @@
 .part1 {
     border: 1px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #16325c;
 }
 .landscape {
     background-color: #def2ff;
@@ -8,11 +10,7 @@
     border: none;
 }
 
-@media (max-width:769px) {
-    .getStarted {
-        height: 410px;
-    }
-}
+
 
 .centered-container {
     text-align: center;
@@ -24,6 +22,13 @@
 
 .neutraface {
     font-family: 'Neutraface Text', sans-serif;
+    color: #16325c;
+}
+
+.neutraface-subtitle {
+    line-height: 1.1em; 
+    font-size: 1.875rem; 
+    font-weight: 400px;
 }
 
 .get-started-button {
@@ -38,4 +43,32 @@
     border-radius: 0.25rem;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin:30px 0px 30px 0px;
+}
 
+.flex-item-with-logo img {
+    height: 65px;
+}
+
+.item-header {
+    font-size: 20px;
+}
+
+.padding-large {
+    padding:50px;
+}
+
+
+@media (max-width:769px) {
+    .getStarted {
+        height: 410px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+}
