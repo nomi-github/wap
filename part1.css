@@ -1,0 +1,41 @@
+.part1 {
+    border: 1px solid black;
+}
+.landscape {
+    background-color: #def2ff;
+    height: 452px;
+    width: 100%;
+    border: none;
+}
+
+@media (max-width:769px) {
+    .getStarted {
+        height: 410px;
+    }
+}
+
+.centered-container {
+    text-align: center;
+}
+
+.m-top-large {
+    margin-top:80px;
+}
+
+.neutraface {
+    font-family: 'Neutraface Text', sans-serif;
+}
+
+.get-started-button {
+    background-color: rgb(251, 97, 14);
+    border-color: rgb(251, 97, 14);
+    color: white;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    box-shadow: 0 1px 0 #b94303;
+    white-space: nowrap;
+    border-radius: 0.25rem;
+}
+
+
