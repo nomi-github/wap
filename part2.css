@@ -11,6 +11,22 @@
     text-align: center;
 }
 
+.headerTextInColoredBox {
+    text-align: center;
+    color: white;
+  }
+
+  .buttonLikeDiv{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    width: 250px;
+    background-color: white;
+    color: #0176d3;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
 .top {
   display: flex;
   flex-direction: column;
@@ -193,9 +209,6 @@ hr {
   position: absolute;
 }
 
-.headerTextInColoredBox {
-  color: white;
-}
 
 .checkBoxContainer {
   display: flex;
@@ -208,10 +221,6 @@ hr {
   display: flex;
   flex-direction: row;
   padding: 10px;
-}
-
-.headerTextInColoredBox {
-  text-align: center;
 }
 
 .checkBoxContainerDiv {
@@ -241,6 +250,137 @@ hr {
     justify-content: center;
     text-align: center;
 }
+
+.exploreCertificationDiv{
+    background-color: #0f264e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.labelName{
+    margin-top: 13px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+  }
+
+  /* .footer-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-row-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  } */
+
+  .footer-column {
+    margin: 10px;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .app-store-badge, .google-play-badge {
+    display: block;
+    height: 40px;
+    width: 135px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 5px 0;
+  }
+  
+  .app-store-badge {
+    background-image: url('./images/download-from.png');
+  }
+  
+  .google-play-badge {
+    background-image: url('google-play-badge.png');
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .legal-links {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .legal-links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .social-links {
+    display: flex;
+  }
+  
+  .social-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+  }
+  
+  .facebook-icon { background-image: url('./images/facebook-icon.png'); }
+  .twitter-icon { background-image: url('./images/Logo_of_Twitter.svg.png'); }
+  .linkedin-icon { background-image: url('./images/174857.png'); }
+  .tumblr-icon { background-image: url('./images/tumblr-icon.png'); }
+  .vimeo-icon { background-image: url('./images/vimeo.png'); }
+  
+  .language-selector {
+    text-align: center;
+  }
+  
+  #language-select {
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .footer-legal {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+  }
+  
 
 @media screen and (max-width: 1375px) {
   .leftTopNavBar > span,
