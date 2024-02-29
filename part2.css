@@ -7,6 +7,7 @@
   border-radius: 50%;
 }
 
+
 .picDiv {
   width: 100px;
 }
@@ -20,13 +21,33 @@
 }
 
 .buttonLikeDiv{
- color:#0176d3;
  text-align: center;
  align-self: center;
   width: 280px;
   border-radius: 5px;
   padding: 5px;
   border: grey solid 1px;
+}
+
+.centeredDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.blueFont{
+  color:#0176d3;
+}
+
+.whiteFont{
+  color:white;
+}
+
+.whiteColor{
+  background-color: white;
+}
+
+.orangeColor{
+  background-color: orangered;
 }
 
 .buttonLikeDivWcolor {
@@ -50,7 +71,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
 }
 
 .leftTopNavBar,
@@ -117,6 +137,8 @@
   justify-content: space-between;
   padding: 0px 5px 0px 5px;
   margin-left: 25px;
+  position: sticky;
+  top: 0
 }
 .leftBottomNavBar {
   display: flex;
@@ -281,6 +303,13 @@ hr {
   overflow: clip;
 }
 
+.finalContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
 /* footer */
 
 footer {
@@ -400,6 +429,7 @@ footer {
   font-size: 12px;
 }
 
+
 @media screen and (max-width: 1250px) {
   .leftTopNavBar > span,
   .contactIcon,
@@ -419,10 +449,20 @@ footer {
   }
 }
 
+.blazeTrail{
+  text-align: center; display: flex; flex-direction: column; justify-content: center; margin: 25px; padding: 20px; text-align: center; position: relative;
+}
+
 @media screen and (max-width: 760px){
   .exploreCertificationDiv, .resumeWorthyDiv, .learnDiv{
     display: none;
   }
+
+  @media screen and (max-width: 530px){
+    .blazeTrail>img{
+      display: none;
+    }
+    
   
 }
 
