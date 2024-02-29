@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 
 .leftTopNavBar, .leftBottomNavBar{
@@ -95,6 +96,16 @@ hr{
     color: grey;
     margin: 0;
 
+}
+
+@media screen and (max-width: 1375px) {
+    .leftTopNavBar>span, .contactIcon, .bottomNavMenu, .signUpButton{
+        display: none;
+    }
+    .searchBox{
+        width: auto;
+    }
+    
 }
 
 
