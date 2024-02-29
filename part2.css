@@ -4,6 +4,13 @@
   border-radius: 50%;
 }
 
+.picDiv{
+    width:100px;
+}
+.centeredLabel{
+    text-align: center;
+}
+
 .top {
   display: flex;
   flex-direction: column;
@@ -118,6 +125,7 @@ hr {
   flex-direction: column;
   align-items: center;
   padding: 15px;
+  padding-bottom: 48px;
 }
 .card {
   width: 300px;
@@ -133,6 +141,7 @@ hr {
 .iconPoints {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .pointsDiv {
@@ -209,6 +218,28 @@ hr {
   display: flex;
   justify-content: space-between;
   margin: 30px;
+}
+
+.resumeWorthyDiv{
+    background-color: #153369;
+    color: white;
+    margin-top: -20px;
+    padding: 25px;
+    font-size: 17px;
+}
+
+.picWithLabel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.picWithLabelContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 1375px) {
